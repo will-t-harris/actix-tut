@@ -9,7 +9,7 @@ pub struct ServerConfig {
 
 #[derive(Deserialize)]
 pub struct Config {
-    pub server: Server,
+    pub server: ServerConfig,
 }
 
 impl Config {
