@@ -24,5 +24,10 @@ pub struct TodoItem {
 
 #[derive(Deserialize)]
 pub struct CreateTodoList {
-    pub title: String
+    pub title: String,
+}
+
+#[derive(Serialize)]
+pub struct ResponseResult {
+    pub success: bool,
 }
